@@ -25,3 +25,10 @@ int max_index(int* massive,int size){
     }
     return max;
 }
+int sum(int* massive, int size, int begin, int end){
+    int sum{};
+    for(int i{begin}; i < end; i++){
+        sum += massive[i];
+    }
+    return sum;
+}
